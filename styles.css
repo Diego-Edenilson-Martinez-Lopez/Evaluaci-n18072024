@@ -65,6 +65,10 @@ body, html {
     border: 1px solid #ccc;
 }
 
+.DEML-input-group input[id="apellido"] {
+    background-color: #E6F3FF; 
+}
+
 .DEML-button-container {
     margin-bottom: 20px;
 }
