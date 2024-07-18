@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear cliente</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="DEML-container">
+        <div class="DEML-window">
+            <div class="DEML-titlebar">
+                <span>Crear cliente</span>
+                <div class="DEML-buttons">
+                    <span class="DEML-button"></span>
+                    <span class="DEML-button"></span>
+                    <span class="DEML-button"></span>
+                </div>
+            </div>
+            <div class="DEML-content">
+                <div class="DEML-form">
+                    <div class="DEML-input-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" value="Lolsito">
+                    </div>
+                    <div class="DEML-input-group">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" id="apellido">
+                    </div>
+                </div>
+                <div class="DEML-button-container">
+                    <button id="buscarBtn" class="DEML-button">Buscar</button>
+                </div>
+                <table class="DEML-table">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Categoría</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="clientesTableBody">          
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

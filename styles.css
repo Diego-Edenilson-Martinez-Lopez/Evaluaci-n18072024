@@ -1,0 +1,116 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.DEML-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.DEML-window {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 500px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.DEML-titlebar {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.DEML-buttons {
+    display: flex;
+}
+
+.DEML-button {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 0; 
+    border: 1px solid #2676ac;
+}
+
+.DEML-content {
+    padding: 20px;
+}
+
+.DEML-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.DEML-input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.DEML-input-group label {
+    margin-bottom: 5px;
+}
+
+.DEML-input-group input {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.DEML-button-container {
+    margin-bottom: 20px;
+}
+
+button.DEML-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    border-radius: 0;
+}
+
+.DEML-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.DEML-table th, .DEML-table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: left;
+}
+
+.DEML-table th {
+    background-color: #f0f0f0;
+}
+
+.DEML-action-button {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.DEML-edit {
+    background-color: #28a745;
+}
+
+.DEML-delete {
+    background-color: #dc3545;
+}
